@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "properties": {
+      "comment": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1000
+      }
+  
+
+    },
+    "additionalProperties": false,
+    "required": [
+      "comment"
+    ]
+  }
+  
