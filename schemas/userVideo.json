@@ -3,11 +3,24 @@
     "$id": "http://example.com/example.json",
     "type": "object",
     "properties": {
+      "userID": {
+        "type":"string",
+        "minLength": 1,
+        "maxLength": 255
+      },
+
+      "videoID":{
+        "type":"string",
+        "minLength":1,
+        "maxLength": 255,
+      },
+
       "title": {
         "type": "string",
         "minLength": 1,
         "maxLength": 255
       },
+
       "videoLink": {
         "type": "string",
         "minLength": 1,
